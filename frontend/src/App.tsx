@@ -12,6 +12,7 @@ function App() {
         age={21}
         isMarried={true}
         friends={["jessica", "jake", "jerry", "jasmine"]}
+        country="USA"
       />
     </div>
   );
