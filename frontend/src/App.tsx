@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
-import { Person } from './Components/Person'
+import { Person, Country } from './Components/Person'
 
 function App() {
   const [name, setName] = useState<string>("")
@@ -12,7 +12,7 @@ function App() {
         age={21}
         isMarried={true}
         friends={["jessica", "jake", "jerry", "jasmine"]}
-        country="USA"
+        country={Country.Brazil}
       />
     </div>
   );

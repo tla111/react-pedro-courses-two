@@ -4,7 +4,13 @@ interface Props {
     age: number;
     isMarried: boolean;
     friends: string[];
-    country?: string;
+    country?: Country;
+}
+
+export enum Country {
+    Brazil = "Brazil",
+    Canada = "Canada",
+    France = "France",
 }
 
 export const Person = (props: Props) => {
