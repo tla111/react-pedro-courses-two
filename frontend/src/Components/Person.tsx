@@ -1,6 +1,12 @@
+interface Props {
+    name: string;
+    email: string;
+    age: number;
+    isMarried: boolean;
+    friends: string[];
+}
 
-
-export const Person = (props) => {
+export const Person = (props: Props) => {
 
     return (
         <div>
