@@ -1,7 +1,9 @@
+import React, { useState } from 'react';
 import './App.css';
 import { Person } from './Components/Person'
 
 function App() {
+  const [name, setName] = useState<string>("")
   return (
     <div className="App">
       <Person
