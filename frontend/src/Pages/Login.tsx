@@ -13,7 +13,7 @@ export const Login = () => {
             {username}
             <input onChange={(e) => { setNewUsername(e.target.value) }} />
             <button onClick={() => dispatch(login({ username: newUsername }))}>Submit Login</button>
-            <button>Logout</button>
+            <button onClick={() => dispatch(logout())}> Logout </button>
         </h1>
     )
 }
