@@ -1,5 +1,10 @@
 export const Login = () => {
     return (
-        <div>Login</div>
+        <h1>
+            THIS IS THE LOGIN PAGE
+            <input />
+            <button>Submit Login</button>
+            <button>Logout</button>
+        </h1>
     )
 }
